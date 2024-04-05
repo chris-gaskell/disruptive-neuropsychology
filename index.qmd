@@ -1,0 +1,930 @@
+---
+from: markdown+emoji
+format:
+  revealjs:
+    revealjs-plugins:
+    - countdown
+    highlight-style: a11y
+    include-in-header: 
+      text: |
+        <meta name="github-repo" content=""/>
+        <meta name="twitter:title" content="Disruptive Technology for Neuropsychology Practice"/>
+        <meta name="twitter:description" content="CPD slides to present to the Northern Care Alliance Neuropsychology Department Monthly Meeting on 10th April, 2023"/>
+        <meta name="twitter:url" content="https://disruptive-neuropsychology.netlify.app"/>
+        <meta name="twitter:image" content="twitter-pic.jpg"/>
+        <meta name="twitter:image:alt" content="Title slide of slides show entitled 'Disruptive Technology for Neuropsychology Practice'/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:creator" content="@chrisgaskell92/>
+        <meta name="twitter:site" content="@chrisgaskell92"/>
+        <meta name="twitter:author" content="Dr Chris Gaskell"/>
+    smaller: false
+    scrollable: true
+    incremental: false
+    theme: [simple, style.css, custom.scss]
+    preview-links: false
+    preload-iframes: true
+    chalkboard: true
+    author: "Dr. Chris Gaskell"
+    institute: "Neuropsychology <br> North Staffordshire Combined Healthcare NHS Foundation Trust"
+    footer: "**Disruptive Technology**: Dr. Chris Gaskell"
+    transition: slide
+    background-transition: fade
+    transition-speed: slow
+    footnotes-hover: true
+    filters: 
+      - designmode
+    reference-location: document
+bibliography: references.bib
+---
+
+## Disruptive Innovation for Neuropsychology: {background-iframe="my-iframe/index.html" background-color="#01364C" style="font-size: 35px; text-align: left;"}
+
+**Dr Chris Gaskell**
+
+::: {style="text-align: left"}
+*for:*
+
+**Northern Care Alliance NHS**<br>Foundation Trust
+
+10/04/2024
+
+Link to slides:<br> [https://innovation-in-neuropsychology.netlify.app](https://disruptive-neuropsychology.netlify.app)
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="60%" style="text-align: center"}
+![](img/chris.jpg){style="border-radius: 50%; box-shadow: 0 0 30px black;" width="210"}
+
+### Dr. Chris Gaskell
+
+::: {style="font-size: 24px; text-align: center"}
+Senior Clinical Psychologist \|<br>Clinical Academic
+
+Neuropsychology
+
+North Staffordshire Combined Healthcare NHS Trust
+
+[`r icons::icon_style(icons::fontawesome("envelope"), scale = 1.5)`](mailto:Christopher.Gaskell@combined.nhs.uk) [`r icons::icon_style(icons::fontawesome("twitter"), scale = 1.5)`](https://twitter.com/chrisgaskell92) [`r icons::icon_style(icons::fontawesome("github"), scale = 1.5)`](https://github.com/chris-gaskell) [`r icons::icon_style(icons::fontawesome("graduation-cap"), scale = 1.5)`](https://scholar.google.co.uk/citations?user=SloDt6kAAAAJ&hl=en&oi=ao) [`r icons::icon_style(icons::fontawesome("researchgate"), scale = 1.5)`](https://www.researchgate.net/profile/Chris-Gaskell-2) [`r icons::icon_style(icons::fontawesome("linkedin"), scale = 1.5)`](https://www.linkedin.com/in/chris-gaskell/)
+:::
+
+::: {.column width="40%" style="text-align: center"}
+:::
+:::
+:::
+
+::: notes
+-   Current status.
+
+-   Previous input at SRFT.
+
+-   Amateur interest in programming.
+
+    -   5 years of learning how to use a specific programming environment.
+
+    -   Interested in how to creatively build and design tools that can improve workflows in neuropsychology.
+:::
+
+# Contents {background-color="#01364C" style="font-size: 35px; text-align: left;"}
+
+-   Introduction
+
+-   `Innovation`
+
+    -   Relevance for Neuropsychology :fire:
+
+-   `Shiny` Apps:
+
+    -   **Case Study 1:** Score Converter :chart_with_upwards_trend:
+
+    -   ~~**Case Study 2:** Reliable Change :stopwatch:~~
+
+::: notes
+-   Going to talk a little about
+
+    -   Innovation.
+
+    -   Why it is relevant for neuropsychological practice.
+
+    -   And then I am going to demonstrate an app that I have been working on.
+
+-   Unlikely to have time to go through both apps today.
+
+-   I will signpost and briefly mention the reliable change app. But is anyone is interested is statistical approaches to change over time then feel free to message me!
+
+-   Signpost to some resources
+:::
+
+## Innovation
+
+[**Introductory Exercise:**]{.underline} <countdown time="120"/>
+
+1.  Are we **`Consumers`** or **`Producers`** of technology/innovation?
+
+2.  What innovations have **`You`** been involved with?
+
+3.  Which **`Colleagues`** do you think of when it comes to innovation?
+
+. . .
+
+-   **Tips:**
+    -   Scorers and Software.
+
+    -   Tele-Conferencing and Technology.
+
+    -   Service Developments.
+
+    -   Interventions.
+
+    -   Research.
+
+::: notes
+-   As a psychologist/neuropsychologist, do you see yourself as a **`consumer`** of technology, or a **`producer`** of technology?
+-   What innovations, developments, or idea have you been involved with or acted upon?
+-   What about your colleagues? Who do you look to when you think of a colleague who strives for innovation? Who has helped to turn the needle?
+-   Purpose of this task is to get you thinking explicitly about you as an individual, a service, a department, organisation, and how you have contributed to local innovation.
+
+This is really informal, but it would be nice if some of you could jot down some ideas. I am going to come back to this in a few slides and invite people to feedback with what came to mind for people.
+:::
+
+## Neuropsychology as Developers
+
+Why are neuropsychologists also good developers?
+
+::: columns
+::: {.column width="50%"}
+::: incremental
+-   Analytical minds :nerd_face:
+
+-   Embrace the the scientific method :scientist:
+
+-   Progress Values (accessibility, inclusivity, and diversity :muscle:)
+
+-   Public sector :money_with_wings:
+
+-   Our history :mag:
+
+-   Empirical approach to assessment
+:::
+:::
+
+::: {.column width="50%"}
+![](img/innovation.jpeg)
+:::
+:::
+
+::: notes
+-   Analytical:
+
+-   Scientific method:
+
+-   Progress:
+
+-   Public sector:
+
+    -   We appreciate the economical argument.
+
+-   Our history:
+
+    -   We literally founded the empirical investigation between brain and behaviour.
+
+-   Assessment:
+
+    -   Think of all the empirically supported assessment tools.
+
+We should feel good about ourselves!
+
+I would argue that we should position ourselves as developers even more! As a field we are heavily involved in neuroscience, measurement, and advancing treatments.
+
+We should remind ourselves about how we participate in and lead this edge of innovation!
+:::
+
+## Innovators!
+
+Neuropsychologists are model innovators wtihin healthcare!
+
+But where is leading the endeavour for `Neuropsychology`?
+
+![](img/srft.jpg){.fragment fig-align="center" width="600" height="500"}
+
+::: notes
+-   Hopefully, I'm starting to convince you all about about how innovation is intrinsic to the way in which we work in neuropsychology.
+
+-   The neuropsychology collective are model field for innovation.
+
+-   But within neuropsychology, where does the real leading innovation happen.
+
+    -   Where is the home of neuropsychology innovation currently?
+
+    -   It certainly isn't the Oliver Zangwill centre.
+
+    -   You might say a University? Sure, but often the neuropsycchology models that come out of Universities are based on cases that appear in routine practice.
+
+-   I am going to make a case for SRFT.
+
+    -   For years I worked as an AP in and around Manchester - it was always Salford.
+
+        -   The leading clinicians.
+
+        -   The innovative services.
+
+        -   A heavy volume of peer reviewed research.
+
+    -   Always trainees wanting to be on placement here. It's certainly why I requested to come on placement here.
+
+    -   The surgical pathways, the NEAD service....
+:::
+
+## Feedback
+
+What came to everyone's minds?
+
+1.  Are we **`Consumers`** or **`Producers`** of technology?
+
+2.  What innovations have **`You`** been involved with?
+
+3.  Which **`Colleagues`** do you look towards?
+
+::: notes
+-   So with that. Hopefully now is a nice point to step backwards and look to these questions that I previously put.
+
+-   Can be challenging to toot our own trumpet - but it's important that we are able to communicate this part of what we do.
+:::
+
+## However...
+
+. . .
+
+::: columns
+::: {.column width="50%"}
+-   Qinteractive :thumbsdown:
+
+-   Old fashioned resources :thumbsdown:
+
+-   Outdated assessments :thumbsdown:
+
+-   Irrelevant norms :-1:
+
+-   Manual scoring :thumbsdown:
+
+<!-- -->
+
+-   VR, NLP and precision medicine :timer_clock::question:
+
+-   Automated Reports :timer_clock::question:
+:::
+
+::: {.column width="50%"}
+![](img/not-done-yet.jpeg){fig-align="center"}
+:::
+:::
+
+::: notes
+-   Spent the first part of the presentation trying to fire us up.
+
+-   But there is also a need to acknowledge that
+
+    -   Although there are truly inspirational developments happening in neuropsychology.
+
+    -   There are also a lot of areas, where things have become awfully stale.
+
+-   Qinteractive - Is this really the best that we can do in terms of an electronic assessment platform.
+
+-   Old fashioned resources - Handouts cheaply formatted that look like they have been produced on Microsoft 95 and printed to the cheapest possible paper.
+
+-   Outdated assessments - Often joke in the office about the majority of assessments used in in clinical practice being older than I am.
+
+    -   WAIS is the best part of 20 years old.
+
+    -   DKEFS = 2001.
+
+-   Irrelevant norms
+
+-   Manual scoring
+
+-   VR, NLP and precision medicine
+
+-   Automated Reports
+
+-   Gap between a new innovation (research) and implementing it into healthcare, but also some of these problems aren't technological - some of them are more about implementation and access. I would certainly say that a lot of these are solvable problems.
+
+-   A lot to be proud of in neuropsychology, however we probably are a critical point where we need to kick on with the field, in a similar way that other fields have been.
+
+-   These shouldn't feel like a far reach, or something closer to science fiction than clinical practice.
+
+-   In a world where ChatGPT can write presentation for me, surgical procedures can be conducted remotely, chat bots are delivering psychotherapy, almost any electronic device in your home can now be controlled from your phone WHY is it that I am still spending hours of time on quite simple administrative processes, why can it still take many hours to test a patient, and why does it take months to get the results back to someone.
+:::
+
+------------------------------------------------------------------------
+
+> **`Disruptive Technology:`** <br>An innovation that creates a new market or enters at the bottom of an existing market and eventually displaces established market-leading firms, products, and alliances
+
+::: r-stack
+![](img/Netflix.png){.fragment}
+
+![](img/Airbnb.jpeg){.fragment width="450" height="300"}
+
+![](img/uber.png){.fragment width="400" height="400"}
+:::
+
+::: notes
+-   Recently learnt about disruptive tech.
+
+    -   New term for me!
+
+-   I am not sure that neuropsychology have had a truly disruptive innovation yet. But I really hope it's coming!
+
+-   Disruptive innovations = Innovations that make expensive or sophisticated products and services accessible and more affordable to a broader market.
+
+-   **Disruptive innovation** refers to the use of technology that upsets a structure, as opposed to **"disruptive technology"**, which refers to the technology itself.
+
+-   Disruptive Technology refers to changes and innovations in a sector that are so profound they alter the way service is rendered or performed--*disrupting* the old market, and creating an entirely new market, with significant societal impact. Some examples of disruptive technology are the smartphone, digital photography, and companies such as Amazon, Tesla, Uber, and AirBnB.
+:::
+
+## Disruptive Technology Initiative
+
+::: columns
+::: {.column width="50%"}
+American Academy of Clinical Neuropsychology
+
+[![](img/AACN-logo-resized2.png)](https://theaacn.org/disruptive-technology-initiative/)
+:::
+
+::: {.column width="50%"}
+:::
+:::
+
+::: notes
+-   For anyone who is interested in knowing more about the idea of disruptive technology I would encourage you to check out the Disruptive Technology Initiative which is a branch of the AACN.
+
+-   Website has some really helpful resources about encouraging innovation.
+:::
+
+## Why Is It left To Us?
+
+::: columns
+::: {.column width="50%"}
+::: incremental
+-   We have the skills to be able to do it.
+
+-   We are already often already doing it (although usually at a more local level).
+
+-   Proprietary companies don't always have our best interests at hearts.
+
+-   Not a competitive market.
+:::
+:::
+
+::: {.column width="50%"}
+![](img/venn.jpg)
+:::
+:::
+
+::: notes
+-   There is a pressure I think on us to push for more innovation without our field.
+
+-   As I previously explained, we have the skills to do it.
+
+-   We are already doing a lot of innovation locally.
+
+-   The rate of progress shouldn't be dictated by proprietary companies.
+
+-   Unlikely to invest vast amounts in maintenance of development of products.
+:::
+
+## Making Our Tools Scalable
+
+::: columns
+::: {.column width="50%"}
+Lots of innovative work is done in silos.
+:::
+
+::: {.column width="50%"}
+![](img/silo-working.jpeg){fig-align="center"}
+:::
+:::
+
+::: notes
+-   Not everything has a home in peer reviewed journals
+
+-   The amount of exceptional
+
+    -   Home made excel scorers.
+
+    -   Self help interventions.
+
+    -   Unpublished research.
+
+-   A lot of this is used to a fraction of it's maximal reach because it lives in an unknown region of an NHS shared drive.
+
+-   Need for neuropsychology innovations platforms that allow us to share, promote, and collaborate on projects
+
+    -   On-line repositories of resources.
+
+    -   Innnovation and tehcnology SIGs.
+
+    -   IT support that helps us to make our local tools and resources scalable.
+
+    -   Need to make use and find colleagues with a broader skill mix (design, coding etc.)
+:::
+
+# My Interests {background-color="#01364C" style="font-size: 35px; text-align: left;"}
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%"}
+-   Tools to help us **`Expedite`** administrative process and develop workflows
+
+    -   Scoring Tools :toolbox:
+
+    -   Parametrised/Automated Reports :robot:
+
+    -   Visualisation :chart_with_upwards_trend:
+
+-   Data Science
+
+-   HTML (Apps, Books, Slides, Manuscripts)
+:::
+
+::: {.column width="50%"}
+![](img/shortcuts.jpeg)
+:::
+:::
+
+::: notes
+-   We have been doing assessment for a long time. But the tools we use haven't really changed all that much.
+
+-   A lot of motivation is about improving ways of doing things day-to-day.
+
+-   Many different ways in which we can innovate, but one of the areas I am becoming interested in is simple html apps.
+
+-   Examples from Others
+
+    -   Jon Crawford
+
+    -   TOPF
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%"}
+> `Shiny` <br>An R package that makes it easy to build interactive web apps in the R programming environment.
+
+![](https://raw.githubusercontent.com/rstudio/hex-stickers/master/thumbs/shiny.png)
+:::
+
+::: {.column width="50%"}
+### Web Apps
+
+-   Scalable.
+
+-   Simple.
+
+-   Open Source.
+:::
+:::
+
+::: notes
+-   Web apps can be used for many purposes. Data processing.
+
+-   John Crawford \> Offer Statistical Functionality.
+:::
+
+## How Shiny Works
+
+```{=html}
+<iframe width="950" height="500" src="https://chris-gaskell.shinyapps.io/shiny-demo/" title="Basic demonstration of a shiny app"></iframe>
+```
+::: notes
+-   Making something like took all of a few minutes.
+
+-   Granted this isn't the most useful application, but it provides a proof of concept of how a scalable well solution can be performed to make our lives easier at work.
+
+### What could they do for us
+
+-   Efficiency.
+
+-   Functionality.
+
+-   Reduce Errors.
+
+-   Reduce Paper.
+:::
+
+## My Apps[^1]
+
+[^1]: Hover over an image and click to be directed to the web app.
+
+::: columns
+::: {.column width="50%"}
+[![Score Converter: A tool for converting, tabulating, and visualising cognitive test score data.](img/score-converter.jpg){fig-align="center"}](https://chris-gaskell.shinyapps.io/score-converter/)
+:::
+
+::: {.column width="50%"}
+[![Reliable Change: Detection of statistical change using standradised regression based models.](img/reliable-change.jpg){alt="ddd" fig-align="center"}](https://chris-gaskell.shinyapps.io/reliable-change/)
+:::
+:::
+
+::: notes
+These are my apps!
+:::
+
+# Case Study:<br>Problem Definition {background-color="#01364C" style="font-size: 35px; text-align: left;"}
+
+------------------------------------------------------------------------
+
+## Motivation {auto-animate="true" auto-animate-duration="1.3"}
+
+Many routine neuropsychology workflows
+
+::: {style="font-size: 3em; color: red;"}
+Take a long time.
+:::
+
+## Motivation {auto-animate="true" auto-animate-duration="1.3"}
+
+Many routine neuropsychology workflows
+
+1.  Converting test scores.
+
+2.  Tabulating test scores.
+
+3.  Visualising test scores.
+
+::: {style="font-size: 3em; color: red;"}
+Take a long time.
+:::
+
+::: notes
+These are all **very useful** practices however they are laboursome, clunky, and error prone.
+
+:arrow_right: **`Score Converter`** is an attempt to overcome some of these points
+
+-   There are all in relation to psychometric assessment.
+
+-   Apologies if this comes across as awfully dry!
+
+-   Reduce that administrative burden.
+:::
+
+------------------------------------------------------------------------
+
+## Conversions {auto-animate="true" auto-animate-duration="1.3"}
+
+-   There are many types of standardised score[^2].
+
+-   There is value in working with a unified metric[^3].
+
+-   Two primary approaches
+
+    -   `Look-Up Tables`
+
+    -   `Manual Conversions`
+
+[^2]: $Z$ Score, $T$ Score, Wechsler Standard Score, Wechsler Scaled Score, Sten Score, Stanine Score, Vineland Scaled Score, ETS Score, etc.
+
+[^3]: Crawford (2010) in Goldestein (2010) Clinical Neuropsychology: A Practical Guide to Assessment and Management for Clinicians, 2nd Edition
+
+::: notes
+-   Important for reports, communication, and interpretation.
+
+-   Descriptors are useful but also problematic.
+:::
+
+## Conversions {auto-animate="true" auto-animate-duration="1.3"}
+
+-   `Look-Up Tables`
+
+. . .
+
+```{r}
+library(tidyverse)
+library(gt)
+
+data.frame(
+  standard.score = 90:110,
+  rank = c(25, 27, 30, 32, 34, 37, 40, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66, 68, 70, 73, 75),
+  scaled.score = c(8, NA, NA, NA, NA, 9, NA, NA, NA, NA, 10, NA, NA, NA, NA, 11, NA, NA, NA, NA, 12),
+  t.score = c(43, NA, NA, 45, NA, 47, NA, NA, 48, NA, 50, NA, 52, NA, NA, 53, NA, NA, 55, NA, 57),
+  z.score = c(-0.67, NA, NA, -0.5, NA, -0.33, NA, NA, -0.25, NA, 0.00, NA, 0.25, NA, NA, 0.33, NA, NA, 0.55, NA, 0.67),
+  sten.score = c(NA, NA, NA, NA, NA, NA, 5, NA, NA, NA, NA, NA, NA, NA, 6, NA, NA, NA, NA, NA, NA)) %>%
+  arrange(desc(standard.score)) %>% 
+  janitor::clean_names("title") %>%
+  gt() %>%
+  opt_table_lines(extent = "none") %>%
+  tab_options(heading.border.bottom.width = 2,
+              heading.border.bottom.color = "black",
+              heading.border.bottom.style = "solid",
+              table.border.top.color = "white",
+              table_body.hlines.color = "white",
+              table_body.border.top.color = "black",
+              table_body.border.top.style = "solid",
+              table_body.border.top.width = 1,
+              heading.title.font.size = 12,
+              table.font.size = 12,
+              heading.subtitle.font.size = 12,
+              table_body.border.bottom.color = "black",
+              table_body.border.bottom.width = 1,
+              table_body.border.bottom.style = "solid",
+              column_labels.border.bottom.color = "black",
+              column_labels.border.bottom.style = "solid",
+              column_labels.border.bottom.width = 1,
+              column_labels.border.top.color = "black",
+              column_labels.border.top.style = "solid",
+              column_labels.border.top.width = 1,
+              column_labels.font.weight = "bold"
+              ) %>%
+  opt_table_font(font = "times") %>%
+  cols_align(columns = 1:6, align = "center") %>%
+  opt_row_striping(row_striping = T) %>% 
+  gt::sub_missing()
+```
+
+## Conversions {auto-animate="true" auto-animate-duration="1.3"}
+
+-   `Look-Up Tables`
+
+```{=html}
+<!-- -->
+```
+-   Decimal places and rounding can influence precision.
+-   Increment length can influence precision.
+-   The best metric to use is likely to vary based on the purpose for use.
+
+## Conversions {auto-animate="true" auto-animate-duration="1.3"}
+
+-   `Manual Conversions`
+
+. . .
+
+An alternative approach is to use a `Formula`.
+
+$$
+X_{new} =
+\frac{s_{new}}{s_{old}}
+(X_{old} - \bar{X}_{old})
++ \bar{X}_{new}
+$$
+
+. . .
+
+**However** this can be
+
+-   Timely
+-   Complicated
+-   Error prone
+
+::: notes
+**Problems with Look-Up Tables**
+
+For a full version of a traditional look-up table click [here](https://guardianadlitem.org/wp-content/uploads/2014/08/Psychometric-Conversion-Table.pdf).
+
+-   $Z$ score of 1.7 to a standard score.
+-   Standard scores 126, and 127, to $T$ scores.
+-   Percentile rank of 87 to a scaled score.
+
+Looks ups become constrained - they often aren't granular enough to be able to ensure exact matches. And if they did then the table would be really long.
+:::
+
+## **Considerations** {visibility="hidden"}
+
+-   Decimal places and rounding can influence precision.
+-   Increment length can influence precision.
+-   The best metric to use is likely to vary based on the purpose for use.
+
+**Summary:** `Look-Up` tables can be problematic.
+
+An alternative approach is to use a `Formula`.
+
+------------------------------------------------------------------------
+
+## Conversions {auto-animate="true" auto-animate-duration="1.3"}
+
+
+> **`Problem 1:`** <br>Need to be able to efficiently and precisely convert scores to a single metric, while also being able to flexibly change metric depending upon the audience.
+
+------------------------------------------------------------------------
+
+## Tabulation {auto-animate="true" auto-animate-duration="1.3"}
+
+::: columns
+::: {.column width="50%"}
+-   Table of results are really important.
+-   Don't always report the required information.
+-   Often look ugly and cumbersome.
+:::
+
+::: {.column width="50%"}
+::: callout-important
+**Commonly Incurred Problems:**
+
+-   Not clear which metric.
+-   Not clear which test, test version or test form.
+-   Not clear which normative data.
+-   Not clear which formula (e.g., reliable change).
+-   No confidence intervals.
+-   Poor formatting, cumbersome.
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Tabulation {auto-animate="true" auto-animate-duration="1.3"}
+
+> **`Problem 2:`**<br> Need to be able to easily construct tables of results that are clearly formatted, intuitive, and promotes good reporting practices.
+
+::: notes
+-   Tables need to be really clear.
+
+-   But getting them to look really good is quite tricky (particularly using MS Word).
+
+-   Particularly if there is a perception that it is unlikely to be used again / by someone else.
+
+-   Important that all the important information is there - particularly is someone comes back to repeat the assessment in the future.
+:::
+
+------------------------------------------------------------------------
+
+## Visualisation {auto-animate="true" auto-animate-duration="1.3"}
+
+Data Visualisation is a really important tool for interpreting data!
+
+::: columns
+::: {.column width="50%"}
+-   Who doesn't like a nice graph?
+-   More than just aesthetics!
+    -   New insights (e.g., trends).
+    -   Speeds up assimilation.
+    -   Communication.
+-   Rarely used in practice.
+:::
+
+::: {.column width="50%"}
+![](img/data-plot-yes.png){width="346"}
+:::
+:::
+
+## Visualisation {auto-animate="true" auto-animate-duration="1.3"}
+
+> **`Problem 3:`**<br> Need to be able to easily visualise a range of test scores in a way that is intuitive for a variety of audiences.
+
+::: notes
+Finally - problem 3.
+
+-   useful when working with data. We work with a lot of data.
+
+-   Once you have converted all your scores to a single metric.
+
+-   And you have gone to the effort to put the data into a table and attached it to the EPR, the last thing we want to do is spend more time on admin / processing the data.
+
+-   And partly because of that, and also because it is just challenging to do, lots of people skip this part out.
+
+-   I think we are really missing a trick here because graphs are really powerful - for interpretation and also communication.
+:::
+
+------------------------------------------------------------------------
+
+## Example Visualisations
+
+::: r-stack
+![](img/discrepencies-2.jpg){.fragment width="800" height="400"}
+
+![](img/qinteractive%20example.jpg){.fragment width="800" height="300"}
+
+![](img/damien-plot.jpg){.fragment width="700" height="400"} ![](img/1.2_scatter-plot.png){.fragment width="700" height="500"}
+
+![](img/change.png){.fragment width="800" height="400"}
+:::
+
+::: notes
+-   Some feature available in Qinteractive.
+-   Possible to do with spreadsheets.
+:::
+
+# Case Study:<br>Score Converter {background-color="#01364C" style="font-size: 35px; text-align: left;"}
+
+##  {auto-animate="true" auto-animate-duration="1.3"}
+
+> `Score Connveter` <br>A web app for converting, tabulating, and visualising neuropsychological test results.
+
+##  {auto-animate="true" auto-animate-duration="1.3"}
+
+> `Score Connveter` <br>A web app for converting, tabulating, and visualising neuropsychological test results.
+
+`Conversions`
+
+`Tabulation`
+
+`Visualisation`
+
+##  {auto-animate="true" auto-animate-duration="1.3"}
+
+> `Score Connveter` <br>A web app for converting, tabulating, and visualising neuropsychological test results.
+
+`Conversions`
+
+-   Formula based
+-   Flexibly change
+
+`Tabulation`
+
+-   Consistent principles
+-   Conditional formatting and row ordering
+
+`Visualisation`
+
+-   A range of plots (bar, forest radar, bell curves)
+
+::: notes
+-   Score converter is an attempt to bring some of these ideas together.
+
+-   Converts scores but allows you to alter which your preferred score is.
+
+-   It produces tables that are reactive (alter how rows are arranged, for example grouping together tests on certain domains).
+
+-   Highlight all test scores that meet a certain criteria (e.g., show in bright red all scores that are 1 SD below the mean).
+
+-   A range of plots you can produce - as explained they are variations on a theme. One axis has the test and the other axis has the score.
+
+Demonstration
+
+-   The app walks your through how to upload an excel sheet of test scores (e.g., for a battery of scores) so that you can convert, tabulate, and visualise large amounts of test scores at once.
+
+-   There are example datasets that people can easily select. This allows people to get a feel for what it produces, before having to commit to inputting scores into the spreadsheet.
+
+-   In terms of input it just required you to enter a single standardised score of any type. Unfortunately the app doesn't convert from raw score score.
+
+-   Print to pdf allows for a simple pdf that you can upload to the EPR.
+
+Forest plot
+
+-   Rapidly get a sense of the distribution of test scores.
+
+Radar plot
+
+-   Look quite nice - although in my opinion they are quite hard to interpret.
+
+-   Perhaps good for communication information to patients
+
+Bell curve
+
+-   Kind of useful - perhaps less so for patients because need to understand Z scores.
+
+Bar plot
+
+-   Based on Z scores.
+
+-   Reactive.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-iframe="https://chris-gaskell.shinyapps.io/score-converter/"}
+
+## Limitations & Next Steps
+
+-   Likely to have bugs / problems unyet identified
+
+-   Data Input (Excel) is clunky.
+
+-   Not yet able to express confidence intervals.
+
+-   Has not been subjected to extensive user testing.
+
+::: notes
+Next steps
+
+-   Write up / disseminate.
+
+-   Develop the app to address some of these limitations.
+
+-   Continue working on some of the other apps that I also rarely get time to develop.
+:::
+
+::: {style="text-align: center; padding: 200px 0;"}
+# Thank you for listening {background-color="#01364C"}
+
+[`r icons::icon_style(icons::fontawesome("envelope"), scale = 1.5)`](mailto:Christopher.Gaskell@combined.nhs.uk) [`r icons::icon_style(icons::fontawesome("twitter"), scale = 1.5)`](https://twitter.com/chrisgaskell92) [`r icons::icon_style(icons::fontawesome("github"), scale = 1.5)`](https://github.com/chris-gaskell) [`r icons::icon_style(icons::fontawesome("graduation-cap"), scale = 1.5)`](https://scholar.google.co.uk/citations?user=SloDt6kAAAAJ&hl=en&oi=ao) [`r icons::icon_style(icons::fontawesome("researchgate"), scale = 1.5)`](https://www.researchgate.net/profile/Chris-Gaskell-2) [`r icons::icon_style(icons::fontawesome("linkedin"), scale = 1.5)`](https://www.linkedin.com/in/chris-gaskell/)
+
+:handshake:
+:::
+
+## Additional Resources {visibility="hidden"}
+
+::: notes
+-   AACN DTI Slide show
+
+    -   We are the original tech innovators.
+
+    -   not just about efficiency, its about changing the industry.
+
+    -   AACN video is https://theaacn.org/disruptive-technology-initiative/introduction-karen-postal/
+
+-   We believe education should break free from traditional silos and embrace coding, biotechnology, and engineering, among other fields. We believe there is opportunity for radical innovation in the measurement of brain function, cognition and behavior, and reimagining of how these data are analyzed, interpreted, and applied.
+
+-   As neuropsychologists we are perfectly positioned to leverage strong scientific knowledge and research skills to produce market-disrupting technology and services. We understand the importance of economic value balanced with the clinical utility of our services and are devoted to the concepts of individual differences and diversity. Neuropsychologists developed ground-breaking tools to measure cognition and have used them to inform advances in medical and mental health diagnosis and care. We have clinics, research infrastructure andbusiness relationships that help position us for rapid technological innovation.
+:::
