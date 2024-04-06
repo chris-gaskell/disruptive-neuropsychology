@@ -75,15 +75,17 @@ North Staffordshire Combined Healthcare NHS Trust
 :::
 
 ::: notes
--   Current status.
+-   Clinical psychologist in Neuropsychology.
 
--   Previous input at SRFT.
+-   Stoke - Neurology, Neuro-Oncology
+
+-   Previously worked for SRFT (NEAD, Acute Neuro Rehab)
 
 -   Amateur interest in programming.
 
-    -   5 years of learning how to use a specific programming environment.
+-   Learning to code for about 5 years, and now I am trying to find ways of bringing it into my day job.
 
-    -   Interested in how to creatively build and design tools that can improve workflows in neuropsychology.
+-   Interested in many things; tools that can improve workflows for neuropsychology.
 :::
 
 # Contents {background-color="#01364C" style="font-size: 35px; text-align: left;"}
@@ -96,24 +98,22 @@ North Staffordshire Combined Healthcare NHS Trust
 
 -   `Shiny` Apps:
 
-    -   **Case Study 1:** Score Converter :chart_with_upwards_trend:
+    -   `Case Study 1:`\*\* Score Converter :chart_with_upwards_trend:
 
-    -   ~~**Case Study 2:** Reliable Change :stopwatch:~~
+    -   ~~**`Case Study 2:`** Reliable Change :stopwatch:~~
 
 ::: notes
--   Going to talk a little about
+-   Innovation.
 
-    -   Innovation.
+-   Why it's relevant for neuropsychology.
 
-    -   Why it is relevant for neuropsychological practice.
+-   Why I there there is still a lot to be done.
 
-    -   And then I am going to demonstrate an app that I have been working on.
+-   And then I am going to demonstrate and share a basic web app that I've previously worked on.
 
 -   Unlikely to have time to go through both apps today.
 
--   I will signpost and briefly mention the reliable change app. But is anyone is interested is statistical approaches to change over time then feel free to message me!
-
--   Signpost to some resources
+-   I will briefly mention the reliable change app. But is anyone is interested is statistical approaches to change over time then feel free to message me!
 :::
 
 ## Introductory Exercise:
@@ -128,7 +128,7 @@ North Staffordshire Combined Healthcare NHS Trust
 
 . . .
 
-**Tips:**
+`Tips:`
 
 -   Scorers and Software.
 -   Tele-Conferencing and Technology.
@@ -137,12 +137,12 @@ North Staffordshire Combined Healthcare NHS Trust
 -   Research.
 
 ::: notes
--   As a psychologist/neuropsychologist, do you see yourself as a **`consumer`** of technology, or a **`producer`** of technology?
+To start off with, is just an introductory exercise to get us fired up. I would like you to spend just a couple of minutes thinking about these questions, and then a little later I will invite people to say what they are, using the chat.
+
+-   As a neuropsychologist, do you see yourself as a **`consumer`** of technology, or a **`producer`** of technology?
 -   What innovations, developments, or idea have you been involved with or acted upon?
 -   What about your colleagues? Who do you look to when you think of a colleague who strives for innovation? Who has helped to turn the needle?
 -   Purpose of this task is to get you thinking explicitly about you as an individual, a service, a department, organisation, and how you have contributed to local innovation.
-
-This is really informal, but it would be nice if some of you could jot down some ideas. I am going to come back to this in a few slides and invite people to feedback with what came to mind for people.
 :::
 
 ## Neuropsychology as Developers
@@ -172,29 +172,23 @@ Why are neuropsychologists also good developers?
 :::
 
 ::: notes
--   Analytical:
+-   **Analytical:** Some of the most incredibly analytic minds I have ever known.
 
--   Embrace the Scientific method:
+-   Embrace the **Scientific Practitioner model**, which is one of the things that has always allowed us to stand out. So our combined abilities for think creatively and analytically is bolstered by our ability to evaluate what we do.
 
--   Progress: (accessibility, inclusivity, and diversity
+-   **Our history:** We literally founded the empirical investigation between brain and behaviour.
 
--   Public sector:
+-   **Assessment:** Think of all the empirically supported assessment tools.
 
-    -   We appreciate the economical argument.
+-   **Progress:** We are often fine advocates of holding important values; to be accessible, inclusive and generally holding an egalitarian perspective.
 
--   Our history:
-
-    -   We literally founded the empirical investigation between brain and behaviour.
-
--   Assessment:
-
-    -   Think of all the empirically supported assessment tools.
+-   **Public sector:** We appreciate the economical argument.
 
 We should feel good about ourselves!
 
-I would argue that we should position ourselves as developers even more! As a field we are heavily involved in neuroscience, measurement, and advancing treatments.
+Psychology sits between academic science and clinical practice, right in the overlapping segment of a venn. That's where innovation happens.
 
-We should remind ourselves about how we participate in and lead this edge of innovation!
+I would argue that we should position ourselves as innovators, developers even more! It's a huge part of what we do in neuropsychology. As a field we are heavily involved in neuroscience, measurement, and advancing treatments.
 :::
 
 ## Innovators!
@@ -210,31 +204,35 @@ But where is leading the endeavour for `Neuropsychology`?
 ![](img/srft.jpg){fig-align="center"}
 
 ::: notes
--   Hopefully, I'm starting to convince you all about about how innovation is intrinsic to the way in which we work in neuropsychology.
+-   Innovation is intrinsic to the way in which we work in neuropsychology.
 
--   The neuropsychology collective are model field for innovation.
+-   Collectively, we are a good profession for others to emulate.
 
--   But within neuropsychology, where does the real leading innovation happen.
+-   But now I want to ask you... Within the world neuropsychology, where does the real leading innovation happen.
 
-    -   Where is the home of neuropsychology innovation currently?
+    -   Where is the home of Neuropsychology innovation currently?
+
+    -   We think of Apple for Tech, Tesla for cars, Netflix for entertainment, but who is the equivalent for neuropsychology?
 
     -   It certainly isn't the Oliver Zangwill centre.
 
-    -   You might say a University? Sure, but often the neuropsycchology models that come out of Universities are based on cases that appear in routine practice.
+    -   You might say a University? Sure, but often the neuropsychology models that come out of Universities are based on cases that appear in routine practice.
 
 -   I am going to make a case for SRFT.
 
-    -   For years I worked as an AP in and around Manchester - it was always Salford.
+    -   For years I worked as an AP in and around Manchester - it was always Salford that people would talk about.
 
         -   The leading clinicians.
 
-        -   The innovative services.
+        -   The innovative services (surgical pathways, the NEAD service)
 
-        -   A heavy volume of peer reviewed research.
+        -   A heavy output of peer reviewed research.
 
     -   Always trainees wanting to be on placement here. It's certainly why I requested to come on placement here.
 
-    -   The surgical pathways, the NEAD service....
+        -   If you count up the number of years of experience devoted to neuropsychology, what do you have. Half a millenium?
+
+-   I was super chuffed when Alistair asked me to come and speak for the department. Chuffed because I might have something that you want to learn about; but completely unsurprised that if I did have something to offer, that Salford would be the department to come and ask.
 :::
 
 ## Feedback
@@ -250,7 +248,11 @@ What came to everyone's minds?
 ::: notes
 -   So with that. Hopefully now is a nice point to step backwards and look to these questions that I previously put.
 
--   Can be challenging to toot our own trumpet - but it's important that we are able to communicate this part of what we do.
+-   If people can put into the chat what came to their mind and share it - this is a time for you to remind each other of the fantastic work that Salford are doing.
+
+-   And I am dead nosey, so it's a chance for me to hear about all the exciting stuff that Salford have got cooking up.
+
+Can be challenging to toot our own trumpet - but it's important that we are able to communicate this part of what we do.
 :::
 
 ## However... {auto-animate="true" auto-animate-duration="1.3"}
@@ -276,13 +278,29 @@ What came to everyone's minds?
 :::
 
 ::: notes
--   Spent the first part of the presentation trying to fire us up.
+-   Spent the first part of the presentation trying to build us up, but there is a need for us to remain humble because there's a lot more to do.
 
--   But there is also a need to acknowledge that
+-   There are inspirational developments happening in neuropsychology.
 
-    -   Although there are truly inspirational developments happening in neuropsychology.
+    -   There are also a lot of areas and processes in neuropsychology, where things are at risk of having become a little stale.
 
-    -   There are also a lot of areas, where things have become awfully stale.
+-   In a world where
+
+    -   Surgical can be conducted remotely
+
+    -   Chat bots are delivering psychotherapy
+
+    -   And now, Elon Musk is putting Microchips into peoples brains.
+
+-   So why is it that I am still spending hours
+
+    -   Administering and scoring neuropsychology tests
+
+    -   And then struggling to put them into a neatly formatted table on Microsoft Word.
+
+    -   And then it takes many months to get the results back to someone.
+
+[**If no time then don't discuss each point in turn**]{.underline}
 
 -   Qinteractive - Is this really the best that we can do in terms of an electronic assessment platform.
 
@@ -329,8 +347,6 @@ What came to everyone's minds?
 -   A lot to be proud of in neuropsychology, however we probably are a critical point where we need to kick on with the field, in a similar way that other fields have been.
 
 -   These shouldn't feel like a far reach, or something closer to science fiction than clinical practice.
-
--   In a world where ChatGPT can write presentation for me, surgical procedures can be conducted remotely, chat bots are delivering psychotherapy, almost any electronic device in your home can now be controlled from your phone WHY is it that I am still spending hours of time on quite simple administrative processes, why can it still take many hours to test a patient, and why does it take months to get the results back to someone.
 :::
 
 ------------------------------------------------------------------------
@@ -348,15 +364,15 @@ What came to everyone's minds?
 ::: notes
 -   Recently learnt about disruptive tech.
 
-    -   New term for me!
+    -   New term for me! it's where a innovation or company starts a competely new market, or they do something so revolutionary that it turns the existing market on its head. Historically, these don't come around every day. but in recent years, they are happening all the time.
 
 -   I am not sure that neuropsychology have had a truly disruptive innovation yet. But I really hope it's coming!
 
--   Disruptive innovations = Innovations that make expensive or sophisticated products and services accessible and more affordable to a broader market.
+-   Amazon, Tesla, Uber, and AirBnB.
 
--   **Disruptive innovation** refers to the use of technology that upsets a structure, as opposed to **"disruptive technology"**, which refers to the technology itself.
+-   I don't know what a disruptive tech would look like for us, but it might resemble something that doesn't include months for a patient to get a report that they can't make sense of.
 
--   Disruptive Technology refers to changes and innovations in a sector that are so profound they alter the way service is rendered or performed--*disrupting* the old market, and creating an entirely new market, with significant societal impact. Some examples of disruptive technology are the smartphone, digital photography, and companies such as Amazon, Tesla, Uber, and AirBnB.
+-   It totally would not surprise me if whatever it is, it comes from someone at Salford.
 :::
 
 ## Disruptive Technology Initiative
@@ -387,11 +403,11 @@ American Academy of Clinical Neuropsychology
 ::: incremental
 -   We have the skills to be able to do it.
 
--   We are already often already doing it - usually at a local level.
-
--   Proprietary companies don't always have our best interests.
+-   We are already doing it! but usually at a local level.
 
 -   Not a competitive market.
+
+-   Proprietary companies don't always have our best interests.
 :::
 :::
 
@@ -410,6 +426,8 @@ American Academy of Clinical Neuropsychology
 -   The rate of progress shouldn't be dictated by proprietary companies.
 
 -   Unlikely to invest vast amounts in maintenance of development of products.
+
+-   Elon Musk brings out a chip to put in people's brains (not a great comparison) meanwhile Pearson are still scrambling around trying to produce the WAIS-5 (started collecting data in 2016).
 :::
 
 ## Making Our Tools Scalable
@@ -425,7 +443,7 @@ Lots of innovative work is done in silos.
 :::
 
 ::: notes
--   Not everything has a home in peer reviewed journals
+-   Incredible work being done in silos.
 
 -   The amount of exceptional
 
@@ -435,17 +453,19 @@ Lots of innovative work is done in silos.
 
     -   Unpublished research.
 
--   A lot of this is used to a fraction of it's maximal reach because it lives in an unknown region of an NHS shared drive.
+-   A lot of this is used to a fraction of it's maximal reach because it lives in an unknown region of an NHS shared drive gathering dust.
 
--   Need for neuropsychology innovations platforms that allow us to share, promote, and collaborate on projects
+-   Not everything has a home in peer reviewed journals
+
+-   Need for neuropsychology based innovation platforms that allow us to share, promote, and collaborate on projects.
 
     -   On-line repositories of resources.
 
-    -   Innnovation and tehcnology SIGs.
+    -   Innovation and technology based SIGs.
 
     -   IT support that helps us to make our local tools and resources scalable.
 
-    -   Need to make use and find colleagues with a broader skill mix (design, coding etc.)
+    -   Make use of colleagues with a diverse skill mix (design, coding etc.)
 :::
 
 # My Interests {background-color="#01364C" style="font-size: 35px; text-align: left;"}
@@ -473,17 +493,15 @@ Lots of innovative work is done in silos.
 :::
 
 ::: notes
--   We have been doing assessment for a long time. But the tools we use haven't really changed all that much.
+-   Some of my interests
 
--   A lot of motivation is about improving ways of doing things day-to-day.
+-   Neuropsychological assessment.
 
--   Many different ways in which we can innovate, but one of the areas I am becoming interested in is simple html apps.
+-   We have been doing assessment for a long time. But the tools we use and the processes we follow haven't really changed all that much.
 
--   Examples from Others
+-   A lot of motivation improving ways of doing things day-to-day.
 
-    -   Jon Crawford
-
-    -   TOPF
+-   Convenience. I want to reduce the administrative burden that we all have to manage; because I'm far more interested in spending my time with patients.
 :::
 
 ------------------------------------------------------------------------
@@ -507,19 +525,19 @@ Lots of innovative work is done in silos.
 :::
 
 ::: notes
+-   Many different ways in which we can innovate, but one of the areas I am becoming interested in is simple html apps.
+
+-   Examples from Others
+
+    -   Jon Crawford
+
+    -   TOPF
+
+<!-- -->
+
 -   Web apps can be used for many purposes. Data processing.
 
--   John Crawford \> Offer Statistical Functionality.
-
-### What could they do for us
-
--   Efficiency.
-
--   Functionality.
-
--   Reduce Errors.
-
--   Reduce Paper.
+-   
 :::
 
 ## How Shiny Works
@@ -530,7 +548,17 @@ Lots of innovative work is done in silos.
 ::: notes
 -   Making something like took all of a few minutes.
 
--   Granted this isn't the most useful application, but it provides a proof of concept of how a scalable well solution can be performed to make our lives easier at work.
+-   Granted this isn't the most useful application, but it provides a proof of concept of how a an app can provide a scalable solution to make our lives easier at work.
+
+### What could they do for us
+
+-   Efficiency.
+
+-   Functionality.
+
+-   Reduce Errors.
+
+-   Reduce Paper.
 :::
 
 ## My Apps[^1]
@@ -548,28 +576,22 @@ Lots of innovative work is done in silos.
 :::
 
 ::: notes
-These are my apps!
+-   These are my apps!
+
+-   Please do take a look at them and send over any feedback or ideas that you have.
 :::
 
-# Case Study:<br>Problem Definition {background-color="#01364C" style="font-size: 35px; text-align: left;"}
+# App Development:<br>Problem Definition {background-color="#01364C" style="font-size: 35px; text-align: left;"}
+
+::: notes
+-   In order to persuade you that there might even be need for an app, I am going to briefly outline some problems to target.
+:::
 
 ------------------------------------------------------------------------
 
-## Test {auto-animate="true" auto-animate-duration="0.6"}
-
-```{mermaid}
-flowchart LR
-  A[Hard edge] --> B(Round edge)
-  B --> C{Decision}
-  C --> D[Result one]
-```
-
 ## Standard Workflow {auto-animate="true" auto-animate-duration="0.6"}
 
-
 ```{mermaid}
-%%| label: fig-1
-%%| fig-cap: Mermaid diagram
 %%| fig-align: center
 
 flowchart TD
@@ -712,7 +734,7 @@ Looks ups become constrained - they often aren't granular enough to be able to e
 
 <!-- -->
 
-**Considerations:**
+**`Considerations:`**
 
 -   Decimal places and rounding.
 -   Increment length.
@@ -989,7 +1011,7 @@ Bar plot
 
 ------------------------------------------------------------------------
 
-##  {background-iframe="https://chris-gaskell.shinyapps.io/score-converter/"}
+## {background-iframe="https://chris-gaskell.shinyapps.io/score-converter/"}
 
 ## Limitations & Next Steps {auto-animate="true" auto-animate-duration="1.3"}
 
