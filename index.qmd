@@ -98,7 +98,7 @@ North Staffordshire Combined Healthcare NHS Trust
 
 -   `Shiny` Apps:
 
-    -   `Case Study 1:`\*\* Score Converter :chart_with_upwards_trend:
+    -   `Case Study 1:` Score Converter :chart_with_upwards_trend:
 
     -   ~~**`Case Study 2:`** Reliable Change :stopwatch:~~
 
@@ -151,7 +151,6 @@ Why are neuropsychologists also good developers?
 
 ::: columns
 ::: {.column width="50%"}
-::: incremental
 -   Analytical minds :nerd_face:
 
 -   Scientific method :scientist:
@@ -163,7 +162,6 @@ Why are neuropsychologists also good developers?
 -   Progress Values :muscle:
 
 -   Public sector :money_with_wings:
-:::
 :::
 
 ::: {.column width="50%"}
@@ -1011,7 +1009,7 @@ Bar plot
 
 ------------------------------------------------------------------------
 
-## {background-iframe="https://chris-gaskell.shinyapps.io/score-converter/"}
+##  {background-iframe="https://chris-gaskell.shinyapps.io/score-converter/"}
 
 ## Limitations & Next Steps {auto-animate="true" auto-animate-duration="1.3"}
 
