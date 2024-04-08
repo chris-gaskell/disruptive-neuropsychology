@@ -75,11 +75,11 @@ North Staffordshire Combined Healthcare NHS Trust
 :::
 
 ::: notes
--   Clinical psychologist in Neuropsychology.
-
--   Stoke - Neurology, Neuro-Oncology
-
 -   Previously worked for SRFT (NEAD, Acute Neuro Rehab)
+
+-   CP in Stoke Neuropsychology (Neurology, Neuro-Oncology)
+
+-   Clinical Academic!
 
 -   Amateur interest in programming.
 
@@ -98,9 +98,9 @@ North Staffordshire Combined Healthcare NHS Trust
 
 -   `Shiny` Apps:
 
-    -   `Case Study 1:` Score Converter :chart_with_upwards_trend:
+    -   `App 1:` Score Converter :chart_with_upwards_trend:
 
-    -   ~~**`Case Study 2:`** Reliable Change :stopwatch:~~
+    -   ~~**`App 2:`** Reliable Change :stopwatch:~~
 
 ::: notes
 -   Innovation.
@@ -122,9 +122,7 @@ North Staffordshire Combined Healthcare NHS Trust
 
 2.  What innovations have **`You`** been involved with?
 
-3.  Which **`Colleagues`** do you think of when it comes to innovation?
-
-<countdown time="120"/>
+<countdown time="90"/>
 
 . . .
 
@@ -240,8 +238,6 @@ What came to everyone's minds?
 1.  Are we **`Consumers`** or **`Producers`** of technology?
 
 2.  What innovations have **`You`** been involved with?
-
-3.  Which **`Colleagues`** do you look towards?
 
 ::: notes
 -   So with that. Hopefully now is a nice point to step backwards and look to these questions that I previously put.
@@ -963,7 +959,7 @@ Finally - problem 3.
 
 `Visualisation`
 
--   A range of plots (bar, forest radar, bell curves)
+-   A range of plots (bar, forest, radar, bell curve)
 
 ::: notes
 -   Score converter is an attempt to bring some of these ideas together.
