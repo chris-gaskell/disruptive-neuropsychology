@@ -11,7 +11,7 @@ format:
         <meta name="twitter:title" content="Disruptive Technology for Neuropsychology Practice"/>
         <meta name="twitter:description" content="CPD slides to present to the Northern Care Alliance Neuropsychology Department Monthly Meeting on 10th April, 2023"/>
         <meta name="twitter:url" content="https://disruptive-neuropsychology.netlify.app"/>
-        <meta name="twitter:image" content="twitter-pic.png"/>
+        <meta name="twitter:image" content="https://github.com/chris-gaskell/disruptive-neuropsychology/blob/master/twitter-pic.png?raw=true"/>
         <meta name="twitter:image:alt" content="Title slide of slides show entitled 'Disruptive Technology for Neuropsychology Practice'/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:creator" content="@chrisgaskell92/>
